@@ -1,9 +1,9 @@
-const x = 'Global'
+const y = 'Global'
 
 function fora(){
-    const x = 'local'
+    const y = 'local'
     function dentro(){
-        return x 
+        return y 
     }
     return dentro
 }
